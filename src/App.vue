@@ -1,5 +1,5 @@
 <template>
-  <el-config-provider namespace="ep">
+  <!-- <el-config-provider namespace="ep">
     <BaseHeader />
     <div style="display: flex">
       <BaseSide />
@@ -8,7 +8,10 @@
         <HelloWorld msg="Hello Vue 3.0 + Element Plus + Vite" />
       </div>
     </div>
-  </el-config-provider>
+  </el-config-provider> -->
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <style>
