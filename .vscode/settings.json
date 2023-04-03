@@ -8,5 +8,6 @@
   "vs-code-prettier-eslint.prettierLast": "false",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  } // set as "true" to run 'prettier' last not first
+  }
+  // set as "true" to run 'prettier' last not first
 }
