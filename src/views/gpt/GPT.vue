@@ -1,5 +1,5 @@
 <template>
-  <ChatIdentities />
+  <ChatIdentities ref="chatIdentity" />
   <!-- <el-scrollbar>
     <ChatInput reqAddress="https://api.openai.com/v1/models" />
   </el-scrollbar> -->
@@ -13,7 +13,11 @@ export default defineComponent({
   name: "GPT",
 
   setup() {
-    const models = this.$refs.models as ChatIdentities;
+    const chatIdentity = ref();
+
+    return {
+      chatIdentity,
+    };
   },
 });
 </script>

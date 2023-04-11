@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import BaseSideVue from "~/components/layouts/BaseSide.vue";
-import GPT from "~/views//gpt/GPT.vue";
+import GPT from "~/views/gpt/GPT.vue";
 import ChatDialogVue from "~/components/chats/ChatIdentities.vue";
 import NotFound from "~/views/404.vue";
 

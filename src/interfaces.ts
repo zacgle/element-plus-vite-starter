@@ -1,1 +1,4 @@
-interface gptModels {}
+interface gptModel {
+	name: string;
+	id: string;
+}

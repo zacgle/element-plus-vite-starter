@@ -12,3 +12,9 @@ declare namespace NodeJS {
 		OPENAI_API_KEY: string;
 	}
 }
+// declare global {
+//   interface gptModel {
+//     name: string;
+//     id: string;
+//   }
+// }
